@@ -1,0 +1,43 @@
+body{
+  background-color: hsl(212, 45%, 89%);
+}
+.container{
+  height: 350px;
+  width: 230px;
+  background-color:White;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+border-radius: 10px;
+font-family: Outfit;
+
+}
+.qrimage{
+  display: flex;
+  justify-content: center;
+  margin-top: 5px;
+
+}
+.image{
+  height: 200px;
+  width: 210px;
+  border-radius: 8px;
+}
+.paragraph{
+  font-size: 13px;
+color: hsl(220, 15%, 55%);
+text-align:center;
+}
+.heading{
+  font-weight: bold;
+  text-align: center;
+  color: hsl(218, 44%, 22%);
+}
+.text{
+  margin-left: 10px;
+  margin-right: 10px;
+margin-top: 20px;
+padding-bottom: 10px;
+line-height: 15px;
+}
